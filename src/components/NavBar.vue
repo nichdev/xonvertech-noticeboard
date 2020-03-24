@@ -1,6 +1,6 @@
 <template>
     <nav>
-        <div class="nav-wrapper green">
+        <div class="nav-wrapper deep-orange darken-2">
             <div class="container">
                 <router-link to="/" class="brand-logo">Xonvertech</router-link>
             </div>

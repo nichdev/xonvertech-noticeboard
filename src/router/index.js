@@ -20,7 +20,7 @@ const routes = [
     component: NewEvent
   },
   {
-    path: '/view-event/:event-id',
+    path: '/view-event/:event_id',
     name: 'view-event',
     component: ViewEvent
   },
