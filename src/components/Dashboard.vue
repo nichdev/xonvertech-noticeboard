@@ -6,7 +6,7 @@
             </li>
             <li v-for="event in events" v-bind:key="event.id" class="collection-item">
                 <b>{{ event.event_name }}</b> | <span class="chip">Created by: {{event.created_by}}</span>
-                <router-link class="secondary-content" v-bind:to="{name: 'view-event', params: {event_id: event.id}}">
+                <router-link class="secondary-content" v-bind:to="{name: 'view-event', params: {event_id: event.event_id}}">
                     <button class="waves-effect waves-light btn">See Event</button>   
                 </router-link> 
             </li>
